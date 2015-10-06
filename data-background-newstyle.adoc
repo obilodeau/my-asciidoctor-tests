@@ -1,0 +1,52 @@
+= Test slide deck
+:author: Olivier Bilodeau
+:title: Test slide deck
+// asciidoctor config
+:imagesdir: images
+// reveal.js config
+:backend: revealjs
+:revealjs_controls: false
+:revealjs_center: true
+:revealjs_history: true
+:revealjs_transition: none
+:revealjs_backgroundTransition: slide
+
+== !
+
+image::cover.jpg[background, size=cover]
+
+== !
+
+image::70s.jpg[background, size=cover]
+
+image::meme-2.jpg[width=500px]
+
+== I have no background
+
+== !
+
+image::meme-7.png[]
+
+== !
+
+image::70s.jpg[background,size=contain]
+
+== hey
+
+image::bio.jpg[background,size="100px"]
+
+=== here
+
+image::bio.jpg[background,size="200px"]
+
+=== I
+
+image::bio.jpg[background,size="400px"]
+
+=== come
+
+image::bio.jpg[background,size="800px"]
+
+== URL goat
+
+image::https://upload.wikimedia.org/wikipedia/commons/b/b2/Hausziege_04.jpg[background,size=contain]
